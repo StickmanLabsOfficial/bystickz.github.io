@@ -21,7 +21,7 @@ img {
 
 ul {
     list-style-type: none;
-    margin: 1%;
+    margin: 0px;
     padding: 0;
     display: inline-block;
     width: 100%;
@@ -36,6 +36,7 @@ ul {
     font-size: 3vw;
     transition: 0.5s;
     position: relative; /* To enable absolute positioning inside li */
+    line-height: 8vh;
   }
   
   li:hover {
